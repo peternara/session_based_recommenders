@@ -69,6 +69,20 @@ Note: if your session has an older Python image (3.6) use the alternative `requi
 
 While we explored several datasets (and code exists in `recsys/data.py` to interact with those datasets), the analysis in this repo is focused on the [Online Retail](https://www.kaggle.com/vijayuv/onlineretail) dataset. This dataset is open source though you will need to create an account on Kaggle before downloading the data. In this repo we include a version of this dataset post-processed into customer sessions. These sessions represent all customer transactions from a UK-based online boutique selling specialty gifts collected between 12/01/2010 and 12/09/2011. In total there are purchase histories for 4,372 customers and 3,684 unique products. 
 
+* https://www.kaggle.com/datasets/vijayuv/onlineretail
+* https://github.com/mrinmaisharma/Online-Retail-Dataset/blob/master/script.py
+* https://sks8410.tistory.com/45
+* https://www.codersarts.com/post/online-retail-dataset-classification-clustering-and-regression
+* https://medium.com/@mayureshrpalav/clustering-customers-online-retail-dataset-516e961e7bc
+* https://seethefuture.tistory.com/81
+
+### with gensim
+* https://github.com/fastforwardlabs/train_embeddings_with_gensim > train_gensim_word2vec.ipynb
+* https://github.com/WenHui-Zhou/recommand-system/blob/perper/Perper/Code/model/word2vec.py
+* https://github.com/mdtahsinasif/DeepLearning/blob/master/Recommnedation.py
+* https://github.com/jriesen-MSDS/finale498/blob/jriesen-MSDS-patch-1/msds498_groupproject_word2vec.py
+* https://github.com/BreadBug007/Data-Science-Projects/blob/master/User%20Recognition%20and%20Recommendation%20System/recommend.py 
+
 ### Model training and analysis
 
 The `scripts` directory contains scripts to train models in various formats and analyze results. Here we provide a high-level overview: 
